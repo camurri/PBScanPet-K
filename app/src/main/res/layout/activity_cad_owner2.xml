@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_edit_txt_rounded"
+    tools:context=".CadOwnerActivity2">
+
+    <TextView
+        android:id="@+id/txtViewSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="@string/txt2Of2"
+        app:layout_constraintEnd_toEndOf="@+id/txtViewSettings"
+        app:layout_constraintStart_toStartOf="@+id/txtViewSettings"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSettings" />
+
+    <TextView
+        android:id="@+id/txtViewPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:text="@string/phoneNumber"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPhoneNum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPhoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/txtView2" />
+
+    <EditText
+        android:id="@+id/editTxtPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/phoneNumber"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewPhoneNum"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/editTxtConfirmPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/confirmPhoneNumber"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPhoneNum"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPhoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPhoneNum" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:hint="@string/eula"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtConfirmPhoneNum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtConfirmPhoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtConfirmPhoneNum" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_btn_rounded"
+        android:fontFamily="casual"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPhoneNum"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPhoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxEULA" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

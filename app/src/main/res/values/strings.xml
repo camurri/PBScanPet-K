@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">P&amp;B-ScanPet - versão 1.0</string>
+    <string name="login">Login</string>
+    <string name="yourName">Seu nome</string>
+    <string name="lastName">Sobrenome</string>]
+    <string name="adress">Endereco</string>
+    <string name="street">Rua</string>
+    <string name="city">Cidade</string>
+    <string name="postCode">Cep</string>
+    <string name="HouseNum">Número</string>
+    <string name="scan">Identificar Animal</string>
+    <string name="myPets">Meus Pets</string>
+    <string name="lostAnimals">Animais Perdidos</string>
+    <string name="txt1Of2">1 de 2</string>
+    <string name="txt2Of2">2 de 2</string>
+    <string name="optional">Opcional</string>
+    <string name="country">País</string>
+    <string name="next">Próximo</string>
+    <string name="settings">Configurações</string>
+    <string name="eula">Eu li e aceito os termos \n de  licença e Política de privacidade</string>
+    <string name="question">Como ficou sabendo do P&amp;B-ScanPet?</string>
+    <string name="phoneNumber">Telefone</string>
+    <string name="done">Feito</string>
+    <string name="confirmPhoneNumber">Confirmar número</string>
+    <string name="petName">Nome do Pet</string>
+    <string name="birthday">Aniversário</string>
+    <string name="breed">Raça</string>
+    <string name="search">Buscar/Localizar</string>
+    <string name="photo">Foto</string>
+    <string name="identification">Identificação nº</string>
+    <string name="notes">Observações de saúde</string>
+    healthNotes
+
+
+</resources>

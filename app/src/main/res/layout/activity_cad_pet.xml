@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadPetActivity">
+
+    <TextView
+        android:id="@+id/txtViewSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+
+        android:fontFamily="casual"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView1of2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:fontFamily="casual"
+        android:text="@string/txt1Of2"
+        app:layout_constraintEnd_toEndOf="@+id/txtViewSettings"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/txtViewSettings"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSettings" />
+
+    <TextView
+        android:id="@+id/txtViewPetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:text="@string/petName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPetName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPetName"
+        app:layout_constraintTop_toBottomOf="@+id/txtView1of2" />
+
+    <EditText
+        android:id="@+id/editTxtPetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/petName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewPetName"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTxtBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/breed"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPetName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPetName"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPetName" />
+
+    <EditText
+        android:id="@+id/editTxtBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/birthday"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtBreed"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtBreed"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtBreed" />
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:text="@string/notes"
+        app:layout_constraintStart_toStartOf="@+id/editTxtBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtBirthday" />
+
+    <EditText
+        android:id="@+id/editTxtNote"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:hint="@string/notes"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtBirthday"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNote" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:background="@drawable/bg_btn_rounded"
+        android:hint="@string/next"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtNote"
+        app:layout_constraintStart_toStartOf="@+id/editTxtNote"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtNote" />
+</androidx.constraintlayout.widget.ConstraintLayout>

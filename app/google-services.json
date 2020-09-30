@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "252729752288",
+    "firebase_url": "https://pieibi.firebaseio.com",
+    "project_id": "pieibi",
+    "storage_bucket": "pieibi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252729752288:android:df6b471cb69c4ed6b4ee85",
+        "android_client_info": {
+          "package_name": "co.estudos.pbscanpet_k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtmPwQNWSmVEbwX7UNQy24wXUCZCYiLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252729752288:android:1b95edf0d82bec20b4ee85",
+        "android_client_info": {
+          "package_name": "com.camuri.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtmPwQNWSmVEbwX7UNQy24wXUCZCYiLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252729752288:android:ffce32a930a00f70b4ee85",
+        "android_client_info": {
+          "package_name": "com.pieibi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252729752288-41p45i04trds04tngin9msrfuh4dhpi4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pieibi.app",
+            "certificate_hash": "a1b9c3ee6b8d48ec22c75776c882040c59337742"
+          }
+        },
+        {
+          "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtmPwQNWSmVEbwX7UNQy24wXUCZCYiLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252729752288-uqevhb9mctotisra62c2l7oq3hl84qnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

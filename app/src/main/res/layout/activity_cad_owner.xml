@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_edit_txt_rounded"
+    tools:context=".CadOwnerActivity">
+
+    <EditText
+        android:id="@+id/editTxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/yourName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewYourName"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/txtViewSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewYourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:hint="@string/yourName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtName"
+        app:layout_constraintTop_toBottomOf="@+id/txtView1of2" />
+
+    <EditText
+        android:id="@+id/editTxtLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtName"
+        app:layout_constraintStart_toStartOf="@+id/editTxtName"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTxtStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/street"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtLastName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtLastName"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtLastName"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTxtHouseNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/HouseNum"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtStreet"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtStreet"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtStreet"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTxtCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/city"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtHouseNum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtHouseNum"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtHouseNum"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTxtPostCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/postCode"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtCity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtCity"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtCity"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTxtCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/country"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPostCode"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtPostCode"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPostCode"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextOptional"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit_txt_rounded"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:hint="@string/question"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtCountry"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTxtCountry"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewOptional"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_btn_rounded"
+        android:fontFamily="casual"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="@+id/editTextOptional"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/editTextOptional"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOptional" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:text="@string/adress"
+        app:layout_constraintBottom_toTopOf="@+id/editTxtStreet"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtStreet"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="@+id/editTxtStreet" />
+
+    <TextView
+        android:id="@+id/txtViewOptional"
+        android:layout_width="62dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:hint="@string/question"
+        android:text="@string/optional"
+        app:layout_constraintEnd_toEndOf="@+id/editTextOptional"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="@+id/editTextOptional"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtCountry" />
+
+    <TextView
+        android:id="@+id/txtView1of2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="@string/txt1Of2"
+        app:layout_constraintEnd_toEndOf="@+id/txtViewSettings"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/txtViewSettings"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSettings" />
+</androidx.constraintlayout.widget.ConstraintLayout>
